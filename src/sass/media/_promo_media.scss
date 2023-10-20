@@ -1,0 +1,32 @@
+@media (max-width: 991px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__icon {
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 20px;
+        }
+    }
+}

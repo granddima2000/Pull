@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            button {
+                width: 425px;
+            }
+        }  
+    }
+    .consultation {
+        .button {
+            &_submit {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__contacts {
+            button {
+                display: none;
+            }
+        }
+    }
+}
