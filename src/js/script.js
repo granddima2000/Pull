@@ -81,3 +81,36 @@ $('.button_mini').each(function(i) {
     $('.overlay, #order').fadeIn('slow');
   });
 });
+
+// Валидатор формы
+
+function valideForms(form) {
+  $(form).validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      phone: 'required',
+      email: {
+        required: true,
+        email: true
+      }
+    },
+    messages: {
+      name: {
+        required: "Пожалуйста, укажите свое имя",
+        minlength: jQuery.validator.format("Введите {0} символов!")
+      },
+      phone: "Пожалуйста, введите свой номер телефона",
+      email: {
+        required: "Пожалуйста, введите свою почту",
+        email: "Неправильно введен адрес почты"
+      },
+      
+    }
+  });
+};
+valideForms('#consultation-form');
+valideForms('#consultation form');
+valideForms('#order form');
