@@ -28,30 +28,30 @@
         font-size: 20px;
         font-weight: 700;
         text-decoration: none;
-        margin-bottom: 38px;
+        margin-top: 36px;
         &:hover {
             color: #fff
         }
     }
     &__social-item {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 53px;
         height: 52px;
-        margin: 0 15px;
         border: 2px solid #fff;
         border-radius: 100%;
+        margin: 0 15px;
+        margin-top: 38px;
         transition: .5s all;
-        position: relative;
         &:hover {
-            
+            bottom: 10px;
+            transition: .5s all;
         }
         img {
-            height: 27px;
-            
+            height: 27px; 
         }
-        
     }
     &__social {
         display: flex;
