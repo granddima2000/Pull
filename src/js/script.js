@@ -114,3 +114,28 @@ function valideForms(form) {
 valideForms('#consultation-form');
 valideForms('#consultation form');
 valideForms('#order form');
+
+
+$('input[name=phone').mask("+7 (999) 999-99-99");
+
+
+// ajax-скрипт
+$('form').submit(function(e) {
+  e.preventDefault(); // Отключает перезагрузку сайта при отправке формы
+  
+  if(!$(this).valid()) {
+    return;
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "mailer/smart.php",
+    data: $(this).serialize()
+  }).done(function() {
+    $(this).find("input").val("");
+
+
+    $('form').trigger('reset');
+  });
+  return false;
+});
