@@ -134,16 +134,18 @@
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
+            padding-inline-start: 0px;
             &_active {
                 transform: translateX(-100%);
-                margin-left: 0;
+                margin-left: 0px;
             }
             li {
                 position: relative;
-                margin-bottom: 11px;
-                color: #555;
                 font-size: 14px;
                 font-weight: 300;
+                color: #555555;
+                margin-bottom: 14px;
+                list-style-type: none;
                 &:before {
                     content: '';
                     position: absolute;
@@ -165,10 +167,10 @@
             font-size: 14px;
             font-weight: 500;
             text-decoration: underline;
-            text-transform: uppercase;
+            text-transform: uppercase;    //все буквы заглавные
             &:hover {
                 color: $main-color;
             }
-        }       
-    }
+        }   
+    }     
 }
