@@ -1,5 +1,6 @@
 @media (max-width: 991px) {
     .consultation {
+        padding-left: 50px;
         &__descr {
             width: 100%;
             margin-top: 20px;
@@ -7,10 +8,10 @@
         }
     }
     .feed-form {
-        width: 100%;
+        width: 350px;
         align-items: center;
         input {
-            width: 350px;
+            width: 100%;
         }
         
     }
@@ -25,5 +26,16 @@
 }
 
 @media (max-width: 575px) {
-    
+    .consultation {
+        &__descr {
+            font-size: 20px;
+        }
+        .feed-form {
+            width: 244px;
+            button {
+                width: 244px;
+            }
+        }
+        
+    }
 }

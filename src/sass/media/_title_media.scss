@@ -14,13 +14,18 @@
     .consultation {
         .title {
             &_left {
-                width: 100%;
-                font-size: 30px;
+                font-size: 34px;
             }
         }
     }
 }
 
 @media (max-width: 575px) {
-    
+    .consultation {
+        .title {
+            &_left {
+                font-size: 23px;
+            }
+        }
+    }
 }

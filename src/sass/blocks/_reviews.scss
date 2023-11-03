@@ -1,4 +1,9 @@
 .reviews {
+    &__content {
+        max-width: 676px;
+        min-height: 228px;
+        margin-left: 28px;
+    }
     &__clients {
         padding: 60px 0 49px 0
     }
@@ -24,7 +29,7 @@
         font-weight: 500;
     }
     &__text {
-        margin-top: 10px;
+        margin-top: 12px;
         color: #0D0D0D;
         font-size: 16px;
         font-weight: 300;

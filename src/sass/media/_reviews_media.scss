@@ -1,9 +1,5 @@
 @media (max-width: 1200px) {
-    .reviews {
-        &__text {
-            width: 650px;
-        }
-    }
+
 }
 
 @media (max-width: 991px) {
@@ -23,9 +19,6 @@
         &__rank {
             text-align: center;
         }
-        &__text {
-            text-align: center;
-        }
     }
 }
 
@@ -41,17 +34,10 @@
         &__rank {
             text-align: center;
         }
-        &__text {
-            width: 500px
-        }
     }
 }
 
 @media (max-width: 575px) {
     .reviews {
-        &__text {
-            width: 400px;
-            font-size: 14px;
-        }
     }
 }

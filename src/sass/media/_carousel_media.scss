@@ -14,6 +14,42 @@
     
 }
 
+@media (max-width: 767px) {
+    .carousel {
+        .next {
+            right: 10%;
+            left: auto;
+        }
+        .prev {
+            left: 10%;
+            right: auto;
+        }
+    }
+}
+
 @media (max-width: 575px) {
-    
+    .carousel {
+        .next {
+            right: 10%;
+            left: auto;
+            img {
+                width: 25px;
+                height: 35px;
+            }
+        }
+        .prev {
+            left: 10%;
+            right: auto;
+            img {
+                width: 25px;
+                height: 35px;
+            }
+        }
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+    }
+
 }

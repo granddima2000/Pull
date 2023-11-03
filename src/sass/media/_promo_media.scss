@@ -38,3 +38,35 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__contacts {
+            margin-top: 20px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .promo {
+        &__header {
+            text-align: center;
+            font-size: 32px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 20px;
+        }
+        &__icons {
+            width: 288px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+    }
+}
+

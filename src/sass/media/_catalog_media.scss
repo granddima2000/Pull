@@ -39,11 +39,20 @@
 
 @media (max-width: 575px) {
     .catalog {
+        &__tabs {
+            margin-top: 5px;
+            flex-direction: column;
+        }
         &__tab {
             width: 120px;
             height: 35px;
             font-size: 12px;
             line-height: 3.0em;
+            margin-top: 7px;
+        }
+        &-item {
+            margin-left: 20px;
+            margin-right: 0;
         }
     }
 }

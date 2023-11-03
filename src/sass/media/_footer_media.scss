@@ -1,11 +1,22 @@
 @media (max-width: 767px) {
-    
+    .footer {
+        &__info {
+            width: 381px;
+            height: 252px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
     .footer {
         &__info {
-            width: 400px
+            width: 318px;
+            height: 240px;
+        }
+        &__social-item {
+                margin: 0 5px;
+                margin-top: 10px;
         }
     }
+    
 }
