@@ -24,3 +24,12 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .promo {
+        button {
+                height: 40px;
+                width: 300px;
+        }
+    }
+}

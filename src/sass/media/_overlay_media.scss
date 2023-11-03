@@ -1,5 +1,10 @@
 @media (max-width: 767px) {
-    
+    .modal {
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
